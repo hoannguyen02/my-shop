@@ -1,8 +1,8 @@
-import { Categories } from "../components";
 import React from "react";
+import { CategoriesComponent } from "../components";
 
 const HomePage = () => {
-  return <Categories />;
+  return <CategoriesComponent />;
 };
 
 export default HomePage;

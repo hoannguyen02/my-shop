@@ -1,4 +1,6 @@
-export const categories = [
+import { Categories } from "../../model";
+
+export const categories: Categories = [
   {
     title: "hats",
     imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
