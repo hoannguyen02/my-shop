@@ -8,7 +8,7 @@ const CategoriesComponent = () => {
     <div className="container">
       <div className="row">
         {categories.map((category: CategoryItem) => (
-          <div key={category.id.toString()} className="col-sm-3">
+          <div key={category.id.toString()} className="col-lg-4 col-xl-3">
             <CategoryComponent {...category} />
           </div>
         ))}
