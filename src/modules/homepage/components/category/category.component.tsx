@@ -7,7 +7,7 @@ const CategoryComponent = ({ title, imageUrl, linkUrl }: CategoryItem) => {
   return (
     <Link to={linkUrl}>
       <img className="category-image" src={imageUrl} alt={title} />
-      <h3 className="text-center">{title.toUpperCase()}</h3>
+      <h3 className="category-title">{title.toUpperCase()}</h3>
     </Link>
   );
 };
